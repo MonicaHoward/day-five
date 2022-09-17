@@ -69,3 +69,21 @@ table {
     color: hsl(221, 92%, 48%);
     font-family: 'Bebas Neue', cursive;
 }
+table, tr, th, td {
+    border: 1px solid #dedede;
+    padding: 2%;
+}
+.table {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5%;
+}
+video {
+    width: 40vw;
+}
+.video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
